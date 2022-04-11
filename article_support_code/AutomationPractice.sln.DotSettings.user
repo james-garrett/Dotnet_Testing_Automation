@@ -1,0 +1,23 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=1ae423bc_002D25df_002D4456_002D9b6b_002Dc41af48722c4/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="WebdriverInjectionTests #2" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::73FE0CD0-8708-41E5-B082-7A64D5166898::net6.0::AutomationPractice.UiTests.WebdriverInjectionTests&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::73FE0CD0-8708-41E5-B082-7A64D5166898::net6.0::AutomationPractice.UiTests.LoginAndReload.CardPaymentWith3DsTest&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::73FE0CD0-8708-41E5-B082-7A64D5166898::net6.0::AutomationPractice.UiTests.LoginAndReload.LoginAndBuyCardForUserWithoutCard&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::73FE0CD0-8708-41E5-B082-7A64D5166898::net6.0::AutomationPractice.UiTests.LoginAndReload&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=61cac9d9_002Dd82e_002D4053_002Db736_002D363f0bfe0cde/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="WebdriverInjectionTests" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::73FE0CD0-8708-41E5-B082-7A64D5166898::net6.0::AutomationPractice.UiTests.WebdriverInjectionTests&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::73FE0CD0-8708-41E5-B082-7A64D5166898::net6.0::AutomationPractice.UiTests.LoginAndReload.LoginAndBuyCardForUserWithoutCard&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::73FE0CD0-8708-41E5-B082-7A64D5166898::net6.0::AutomationPractice.UiTests.LoginAndReload.CardPaymentWith3DsTest&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::73FE0CD0-8708-41E5-B082-7A64D5166898::net6.0::AutomationPractice.UiTests.LoginAndReload.LoginAndBuyCardWithBankTransfer&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::73FE0CD0-8708-41E5-B082-7A64D5166898::net6.0::AutomationPractice.UiTests.NewCurrencyCard.CardPaymentWith3DsTest&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::73FE0CD0-8708-41E5-B082-7A64D5166898::net6.0::AutomationPractice.UiTests.NewCurrencyCard.BuyCardWith3Ds&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::73FE0CD0-8708-41E5-B082-7A64D5166898::net6.0::AutomationPractice.UiTests.NewCurrencyCard.BuyCardWithBankTransfer&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::73FE0CD0-8708-41E5-B082-7A64D5166898::net6.0::AutomationPractice.UiTests.LoginAndReload.LoginAndBuyCardWith3Ds&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Housekeeping/UnitTestingMru/UnitTestRunner/HangingTestRunnerResponse/@EntryValue">KillProcess</s:String>
+	<s:String x:Key="/Default/Housekeeping/UnitTestingMru/UnitTestRunner/SpawnedProcessesKnownList/=chromedriver_002Eexe/@EntryIndexedValue">KillOrphaned</s:String></wpf:ResourceDictionary>
