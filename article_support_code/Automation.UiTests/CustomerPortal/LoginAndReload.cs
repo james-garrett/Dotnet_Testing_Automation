@@ -23,6 +23,15 @@ namespace AutomationPractice.UiTests
         }
 
         [Test]
+        public void CanLoadHomepage()
+        {
+            _driver = UiTestSession.Current.Resolve<IWebDriver>();
+            OpenCustomerPortal(_driver);
+            LoginAsTestUser(_driver);
+            Assert.Pass();
+        }
+
+        [Test]
         public void CardPaymentWith3DsTest()
         {
             _driver = UiTestSession.Current.Resolve<IWebDriver>();

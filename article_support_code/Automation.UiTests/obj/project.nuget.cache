@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "avKfcNSenEnvh1uPrK7c1EqoPsLDfKTi4O4tmE2Xulu9kz7UYz6GuBNfdGrLUqTlfS+SZojKJEigj9Qe/vP4Ig==",
+  "dgSpecHash": "jxtHET+lNokLtRHXSfCFbd9GTBiztbiNIA7bWBsy15pewCfF4SbSC51P8vYPFaTJ7epRaDPf4U3xNIozMQ7axA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\DeloitteDigital\\Desktop\\Automation\\article_support_code\\Automation.UiTests\\Automation.UiTests.csproj",
+  "projectFilePath": "C:\\Users\\DeloitteDigital\\Desktop\\Dotnet_Testing_Automation\\article_support_code\\Automation.UiTests\\Automation.UiTests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\DeloitteDigital\\.nuget\\packages\\dotnetseleniumextras.waithelpers\\3.11.0\\dotnetseleniumextras.waithelpers.3.11.0.nupkg.sha512",
     "C:\\Users\\DeloitteDigital\\.nuget\\packages\\microsoft.codecoverage\\16.11.0\\microsoft.codecoverage.16.11.0.nupkg.sha512",

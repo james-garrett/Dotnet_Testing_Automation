@@ -42,7 +42,7 @@ namespace AutomationPractice.UiTests.UIMethods
             
             //TODO - if this happens again, make a "FindElementByName" function
             var field = FindElement(driver, By.Name("next"), 20);
-            field.Click();
+            field.Submit();
         }
         
         public static void PayWithCard( IWebDriver? driver)

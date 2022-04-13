@@ -63,11 +63,14 @@ namespace AutomationPractice.Core.Selenium
             var driverService = ChromeDriverService.CreateDefaultService(_options.DriverPath);
             var options = new ChromeOptions();
             StoreProcess(driverService.ProcessId);
+            driverService.LogPath = _options.LogPath;
+            driverService.EnableVerboseLogging = true;
             if (_options.Headless)
             {
                 options.AddArgument("headless");
             }
 
+            options.AddArgument("no-sandbox");
             options.AddArgument("--no-sandbox");
             options.AddArgument("--start-maximized");
             

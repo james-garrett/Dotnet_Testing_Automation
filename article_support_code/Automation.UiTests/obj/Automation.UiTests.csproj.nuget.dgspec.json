@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\DeloitteDigital\\Desktop\\Automation\\article_support_code\\Automation.UiTests\\Automation.UiTests.csproj": {}
+    "C:\\Users\\DeloitteDigital\\Desktop\\Dotnet_Testing_Automation\\article_support_code\\Automation.UiTests\\Automation.UiTests.csproj": {}
   },
   "projects": {
-    "C:\\Users\\DeloitteDigital\\Desktop\\Automation\\article_support_code\\Automation.Common\\Automation.Common.csproj": {
+    "C:\\Users\\DeloitteDigital\\Desktop\\Dotnet_Testing_Automation\\article_support_code\\Automation.Common\\Automation.Common.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\DeloitteDigital\\Desktop\\Automation\\article_support_code\\Automation.Common\\Automation.Common.csproj",
+        "projectUniqueName": "C:\\Users\\DeloitteDigital\\Desktop\\Dotnet_Testing_Automation\\article_support_code\\Automation.Common\\Automation.Common.csproj",
         "projectName": "Automation.Common",
-        "projectPath": "C:\\Users\\DeloitteDigital\\Desktop\\Automation\\article_support_code\\Automation.Common\\Automation.Common.csproj",
+        "projectPath": "C:\\Users\\DeloitteDigital\\Desktop\\Dotnet_Testing_Automation\\article_support_code\\Automation.Common\\Automation.Common.csproj",
         "packagesPath": "C:\\Users\\DeloitteDigital\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\DeloitteDigital\\Desktop\\Automation\\article_support_code\\Automation.Common\\obj\\",
+        "outputPath": "C:\\Users\\DeloitteDigital\\Desktop\\Dotnet_Testing_Automation\\article_support_code\\Automation.Common\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\DeloitteDigital\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -68,14 +68,14 @@
         }
       }
     },
-    "C:\\Users\\DeloitteDigital\\Desktop\\Automation\\article_support_code\\Automation.Core\\Automation.Core.csproj": {
+    "C:\\Users\\DeloitteDigital\\Desktop\\Dotnet_Testing_Automation\\article_support_code\\Automation.Core\\Automation.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\DeloitteDigital\\Desktop\\Automation\\article_support_code\\Automation.Core\\Automation.Core.csproj",
+        "projectUniqueName": "C:\\Users\\DeloitteDigital\\Desktop\\Dotnet_Testing_Automation\\article_support_code\\Automation.Core\\Automation.Core.csproj",
         "projectName": "Automation.Core",
-        "projectPath": "C:\\Users\\DeloitteDigital\\Desktop\\Automation\\article_support_code\\Automation.Core\\Automation.Core.csproj",
+        "projectPath": "C:\\Users\\DeloitteDigital\\Desktop\\Dotnet_Testing_Automation\\article_support_code\\Automation.Core\\Automation.Core.csproj",
         "packagesPath": "C:\\Users\\DeloitteDigital\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\DeloitteDigital\\Desktop\\Automation\\article_support_code\\Automation.Core\\obj\\",
+        "outputPath": "C:\\Users\\DeloitteDigital\\Desktop\\Dotnet_Testing_Automation\\article_support_code\\Automation.Core\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\DeloitteDigital\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -92,8 +92,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\DeloitteDigital\\Desktop\\Automation\\article_support_code\\Automation.Common\\Automation.Common.csproj": {
-                "projectPath": "C:\\Users\\DeloitteDigital\\Desktop\\Automation\\article_support_code\\Automation.Common\\Automation.Common.csproj"
+              "C:\\Users\\DeloitteDigital\\Desktop\\Dotnet_Testing_Automation\\article_support_code\\Automation.Common\\Automation.Common.csproj": {
+                "projectPath": "C:\\Users\\DeloitteDigital\\Desktop\\Dotnet_Testing_Automation\\article_support_code\\Automation.Common\\Automation.Common.csproj"
               }
             }
           }
@@ -148,14 +148,14 @@
         }
       }
     },
-    "C:\\Users\\DeloitteDigital\\Desktop\\Automation\\article_support_code\\Automation.UiTests\\Automation.UiTests.csproj": {
+    "C:\\Users\\DeloitteDigital\\Desktop\\Dotnet_Testing_Automation\\article_support_code\\Automation.UiTests\\Automation.UiTests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\DeloitteDigital\\Desktop\\Automation\\article_support_code\\Automation.UiTests\\Automation.UiTests.csproj",
+        "projectUniqueName": "C:\\Users\\DeloitteDigital\\Desktop\\Dotnet_Testing_Automation\\article_support_code\\Automation.UiTests\\Automation.UiTests.csproj",
         "projectName": "Automation.UiTests",
-        "projectPath": "C:\\Users\\DeloitteDigital\\Desktop\\Automation\\article_support_code\\Automation.UiTests\\Automation.UiTests.csproj",
+        "projectPath": "C:\\Users\\DeloitteDigital\\Desktop\\Dotnet_Testing_Automation\\article_support_code\\Automation.UiTests\\Automation.UiTests.csproj",
         "packagesPath": "C:\\Users\\DeloitteDigital\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\DeloitteDigital\\Desktop\\Automation\\article_support_code\\Automation.UiTests\\obj\\",
+        "outputPath": "C:\\Users\\DeloitteDigital\\Desktop\\Dotnet_Testing_Automation\\article_support_code\\Automation.UiTests\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\DeloitteDigital\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -172,8 +172,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\DeloitteDigital\\Desktop\\Automation\\article_support_code\\Automation.Core\\Automation.Core.csproj": {
-                "projectPath": "C:\\Users\\DeloitteDigital\\Desktop\\Automation\\article_support_code\\Automation.Core\\Automation.Core.csproj"
+              "C:\\Users\\DeloitteDigital\\Desktop\\Dotnet_Testing_Automation\\article_support_code\\Automation.Core\\Automation.Core.csproj": {
+                "projectPath": "C:\\Users\\DeloitteDigital\\Desktop\\Dotnet_Testing_Automation\\article_support_code\\Automation.Core\\Automation.Core.csproj"
               }
             }
           }

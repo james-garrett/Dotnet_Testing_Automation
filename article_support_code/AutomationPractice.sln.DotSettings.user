@@ -17,6 +17,7 @@
     &lt;TestId&gt;NUnit3x::73FE0CD0-8708-41E5-B082-7A64D5166898::net6.0::AutomationPractice.UiTests.NewCurrencyCard.BuyCardWith3Ds&lt;/TestId&gt;&#xD;
     &lt;TestId&gt;NUnit3x::73FE0CD0-8708-41E5-B082-7A64D5166898::net6.0::AutomationPractice.UiTests.NewCurrencyCard.BuyCardWithBankTransfer&lt;/TestId&gt;&#xD;
     &lt;TestId&gt;NUnit3x::73FE0CD0-8708-41E5-B082-7A64D5166898::net6.0::AutomationPractice.UiTests.LoginAndReload.LoginAndBuyCardWith3Ds&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::73FE0CD0-8708-41E5-B082-7A64D5166898::net6.0::AutomationPractice.UiTests.LoginAndReload.CanLoadHomepage&lt;/TestId&gt;&#xD;
   &lt;/TestAncestor&gt;&#xD;
 &lt;/SessionState&gt;</s:String>
 	<s:String x:Key="/Default/Housekeeping/UnitTestingMru/UnitTestRunner/HangingTestRunnerResponse/@EntryValue">KillProcess</s:String>

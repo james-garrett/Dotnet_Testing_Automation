@@ -237,11 +237,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\DeloitteDigital\\Desktop\\Automation\\article_support_code\\Automation.Common\\Automation.Common.csproj",
+      "projectUniqueName": "C:\\Users\\DeloitteDigital\\Desktop\\Dotnet_Testing_Automation\\article_support_code\\Automation.Common\\Automation.Common.csproj",
       "projectName": "Automation.Common",
-      "projectPath": "C:\\Users\\DeloitteDigital\\Desktop\\Automation\\article_support_code\\Automation.Common\\Automation.Common.csproj",
+      "projectPath": "C:\\Users\\DeloitteDigital\\Desktop\\Dotnet_Testing_Automation\\article_support_code\\Automation.Common\\Automation.Common.csproj",
       "packagesPath": "C:\\Users\\DeloitteDigital\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\DeloitteDigital\\Desktop\\Automation\\article_support_code\\Automation.Common\\obj\\",
+      "outputPath": "C:\\Users\\DeloitteDigital\\Desktop\\Dotnet_Testing_Automation\\article_support_code\\Automation.Common\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\DeloitteDigital\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "GCjNmpVKSnclNh7d5P4XIAB/eUV+k8rIgmAu1+LBAH+XuGQi/jWndsvHpSGRTI2Z2j7bfLWF/6TPJklox9vubQ==",
+  "dgSpecHash": "bbtnkADF6Ob/72Xkk0u4Bm/b7SG7iJdfN6ym8fHNUbFcLX+30aUUNL+OD5ENJWLyAPdU6K51JRBlD6jc6A+8IQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\DeloitteDigital\\Desktop\\Automation\\article_support_code\\Automation.Core\\Automation.Core.csproj",
+  "projectFilePath": "C:\\Users\\DeloitteDigital\\Desktop\\Dotnet_Testing_Automation\\article_support_code\\Automation.Core\\Automation.Core.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\DeloitteDigital\\.nuget\\packages\\microsoft.extensions.configuration\\6.0.0\\microsoft.extensions.configuration.6.0.0.nupkg.sha512",
     "C:\\Users\\DeloitteDigital\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\6.0.0\\microsoft.extensions.configuration.abstractions.6.0.0.nupkg.sha512",

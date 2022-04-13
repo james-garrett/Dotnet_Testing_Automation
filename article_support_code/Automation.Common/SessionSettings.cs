@@ -11,6 +11,7 @@ namespace Automation.Common
     {
         public Browsers Browser { get; set; }
         public string DriverPath { get; set; } = string.Empty;
+        public string LogPath { get; set; } = string.Empty;
         public bool Headless { get; set; }
         public string DownloadDirectory { get; set; } = string.Empty;
         public uint DefaultTimeoutSeconds { get; set; }

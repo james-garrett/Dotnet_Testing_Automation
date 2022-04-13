@@ -2,6 +2,7 @@
   "TestSessionSettings": {
     "Browser": "Chrome",
     "DriverPath": "C:\\Projects\\WebDrivers",
+    "LogPath": "C:\\Users\\DeloitteDigital\\Desktop\\Dotnet_Testing_Automation\\chromedriver.log",
     "DefaultTimeoutSeconds": 20,
     "Headless": false,
     "ApplicationUrl": "https://customerportal.travelmoneyoz.local/",
