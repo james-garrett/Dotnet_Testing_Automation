@@ -1,3 +1,6 @@
+*.cache
+*.Common.dll
+*.Common.pdb
 *.obj
 *.pdb
 *.user
