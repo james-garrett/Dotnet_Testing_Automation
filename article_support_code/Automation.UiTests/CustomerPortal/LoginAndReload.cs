@@ -57,7 +57,7 @@ namespace AutomationPractice.UiTests
                 LoadCard(_driver);
                 EnterDepartureDetails(_driver);
                 PayWithCard(_driver);
-                // AydenCheckout(_driver);
+                AydenCheckout(_driver);
                 Assert.Pass();
             }
             catch (WebDriverTimeoutException ex)

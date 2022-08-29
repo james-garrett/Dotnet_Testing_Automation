@@ -1,7 +1,5 @@
 ﻿using System.Collections.Generic;
 using System.Diagnostics.CodeAnalysis;
-using Automation.Common;
-using OpenQA.Selenium;
 
 namespace Automation.Common
 {

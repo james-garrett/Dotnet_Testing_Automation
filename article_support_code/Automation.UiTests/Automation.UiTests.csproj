@@ -13,8 +13,10 @@
         <PackageReference Include="NUnit" Version="3.13.2" />
         <PackageReference Include="NUnit3TestAdapter" Version="4.2.1" />
         <PackageReference Include="Selenium.Support" Version="4.1.0" />
+        <PackageReference Include="Shared.SeleniumExtensions" Version="0.0.2" />
         <PackageReference Include="System.Data.SqlClient" Version="4.8.3" />
         <PackageReference Include="System.Text.Json" Version="6.0.1" />
+        <PackageReference Include="Xunit.Microsoft.VisualStudio.TestTools.UnitTesting" Version="1.0.0-beta-1011" />
     </ItemGroup>
 
     <ItemGroup>

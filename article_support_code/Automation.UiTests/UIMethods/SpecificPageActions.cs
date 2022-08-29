@@ -86,6 +86,12 @@ namespace AutomationPractice.UiTests.UIMethods
             driver?.Navigate().GoToUrl(url);
         }
         
+        public static void OpenSupportPortal(IWebDriver? driver)
+        {
+            var url = "https://supportportal.travelmoneyoz.local/Search";
+            driver?.Navigate().GoToUrl(url);
+        }
+        
         public static void OpenCustomerPortalAtCurrencyCardStep(IWebDriver? driver)
         {
             var url = "https://customerportal.travelmoneyoz.local/purchasecurrencycard?step=YourCurrencyCard";
@@ -121,22 +127,28 @@ namespace AutomationPractice.UiTests.UIMethods
         //For the GetStarted page
         public static void EnterRegistrationDetails( IWebDriver? driver)
         {
-            InputStringIntoTextBox(driver,"Step_DepartureDetails", "FirstName", "John");
-            InputStringIntoTextBox(driver,"Step_DepartureDetails", "LastName", "Burton");
+            InputStringIntoTextBox(driver,"Step_DepartureDetails", "FirstName", "Johhny");
+            InputStringIntoTextBox(driver,"Step_DepartureDetails", "LastName", "Test");
             
-            SelectFromDropDown(driver,"Step_DepartureDetails", "DOBInputDay2", "5");
-            SelectFromDropDown(driver,"Step_DepartureDetails", "DOBInputMonth2", "2");
-            SelectFromDropDown(driver,"Step_DepartureDetails", "DOBInputYear2", "1983");
+            SelectFromDropDown(driver,"Step_DepartureDetails", "DOBInputDay2", "10");
+            SelectFromDropDown(driver,"Step_DepartureDetails", "DOBInputMonth2", "11");
+            SelectFromDropDown(driver,"Step_DepartureDetails", "DOBInputYear2", "1990");
             
-            InputStringIntoTextBox(driver,"Step_DepartureDetails", "Email", "test@testing.com.au");
+            InputStringIntoTextBox(driver,"Step_DepartureDetails", "Email", "kellybax341@deloitte.com.au");
             
             //TODO - change to specific user deets pulled from DB
-            InputStringIntoTextBox(driver,"Step_DepartureDetails", "Last4Digits", "3639");
-            SelectFromDropDown(driver,"Step_DepartureDetails", "CardExpiryMonth", "1");
-            SelectFromDropDown(driver,"Step_DepartureDetails", "CardExpiryYear", "2026");
+            InputStringIntoTextBox(driver,"Step_DepartureDetails", "Last4Digits", "3815");
+            SelectFromDropDown(driver,"Step_DepartureDetails", "CardExpiryMonth", "4");
+            SelectFromDropDown(driver,"Step_DepartureDetails", "CardExpiryYear", "2027");
             ClickButton(driver,"Step_DepartureDetails", "Next2", 160);
         }
-        
+
+        public static void VerifyIdentityStep(IWebDriver? driver)
+        {
+            ClickButton(driver,"Step_VerifyIdentity", "SelectPassport", 160);
+            InputStringIntoTextBox(driver,"Step_VerifyIdentity", "PassportNumber", "A1111111");
+        }
+
         public static void AydenCheckout( IWebDriver? driver)
         {
             var wait = new WebDriverWait(driver, TimeSpan.FromSeconds(60));

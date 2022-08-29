@@ -1,0 +1,2 @@
+﻿ ̶A̶u̶t̶o̶-̶u̶p̶d̶a̶t̶e̶ ̶f̶o̶r̶ ̶c̶h̶r̶o̶m̶e̶D̶r̶i̶v̶e̶r̶
+-Kill dormant IWebDriver instances after test fail

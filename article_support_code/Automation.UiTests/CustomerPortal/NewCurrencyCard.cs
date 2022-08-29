@@ -31,11 +31,14 @@ namespace AutomationPractice.UiTests
                 CleanUpAllSeleniumProcesses();
                 _driver = UiTestSession.Current.Resolve<IWebDriver>();
                 _driver.Manage().Timeouts().PageLoad = TimeSpan.FromSeconds(120);
-                OpenCustomerPortalAtCurrencyCardStep(_driver);
+                OpenCustomerPortal(_driver);
+                ClickGetStarted(_driver);
+                EnterRegistrationDetails(_driver);
                 LoadCard(_driver);
                 EnterDepartureDetails(_driver);
                 EnterPersonalDetails(_driver);
                 _driver.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(60);
+                
                 PayWithCard(_driver);
                 // AydenCheckout(_driver);
                 Assert.Pass();

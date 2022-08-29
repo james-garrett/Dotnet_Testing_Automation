@@ -320,6 +320,19 @@
             "XPath": "#main > form > section > div.btn-group > div.button__wrapper--float-r > input"
           }
         ]
+      },
+      {
+        "Name": "Step_VerifyIdentity",
+        "Elements": [
+          {
+            "Name": "SelectPassport",
+            "XPath": "#main > form > section > div > ul > li:nth-child(2) > label"
+          },
+          {
+            "Name": "SelectPassport",
+            "XPath": "#step_PassportFields_PassportNumber"
+          }
+        ]
       }
     ],
   "LoginScreenElements": {
@@ -328,7 +341,7 @@
     },
     "TestCredentials": {
       "PrimaryUser": {
-        "UserName": "kellybax320@deloitte.com.au",
+        "UserName": "kellybax420@deloitte.com.au",
         "Password": "Passw0rd!"
       },
       "TestUsers": {

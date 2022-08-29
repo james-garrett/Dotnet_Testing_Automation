@@ -1,10 +1,13 @@
 ﻿using System;
 using AutomationPractice.Core;
+using Microsoft.VisualStudio.TestTools.UnitTesting;
 using NUnit.Framework;
 using OpenQA.Selenium;
+using Shared.SeleniumExtensions;
 using static AutomationPractice.UiTests.HelperMethods;
 using static AutomationPractice.UiTests.UIMethods.SpecificPageActions;
 using static AutomationPractice.UiTests.UIMethods.InteractiveElementMethods;
+using Assert = NUnit.Framework.Assert;
 
 namespace AutomationPractice.UiTests
 {
@@ -23,11 +26,12 @@ namespace AutomationPractice.UiTests
         }
 
         [Test]
-        public void CardPaymentWith3DsTest()
+        public void LoginAndViewDashboard()
         {
             _driver = UiTestSession.Current.Resolve<IWebDriver>();
             // ResetDB();
-            OpenCustomerPortal(_driver);
+            OpenSupportPortal(_driver);
+            Assert.IsTrue(CanFindElementOnPage(_driver, "Sales Portal"));
             Assert.Pass();
         }
 
@@ -95,9 +99,10 @@ namespace AutomationPractice.UiTests
             }
         }
 
-        [TearDown]
+        [TestCleanup]
         public void CleanUp()
         {
+            _driver.TestCleanup();
             UiTestSession.Current.CleanUp();
             _driver?.Close();
             _driver?.Quit();

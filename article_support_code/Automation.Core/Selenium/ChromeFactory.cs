@@ -1,7 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Diagnostics;
+using System.IO;
 using System.Linq;
+using System.Threading.Tasks;
 using Automation.Common;
 using AutomationPractice.Core;
 using OpenQA.Selenium;
@@ -60,27 +62,60 @@ namespace AutomationPractice.Core.Selenium
 
         public IWebDriver Create()
         {
-            var driverService = ChromeDriverService.CreateDefaultService(_options.DriverPath);
-            var options = new ChromeOptions();
-            StoreProcess(driverService.ProcessId);
-            driverService.LogPath = _options.LogPath;
-            driverService.EnableVerboseLogging = true;
-            if (_options.Headless)
+            try
             {
-                options.AddArgument("headless");
-            }
+                var task = Task.Run(async () => await UpdateChromeDriverIfNeeded());
+                task.Wait();
+                var chromeDriverPath = Directory.GetParent(Environment.CurrentDirectory).Parent.FullName + "\\Debug\\net6.0\\";
+                var driverService = ChromeDriverService.CreateDefaultService(chromeDriverPath);
+                var options = new ChromeOptions();
+                StoreProcess(driverService.ProcessId);
+                driverService.LogPath = _options.LogPath;
+                driverService.EnableVerboseLogging = true;
+                if (_options.Headless)
+                {
+                    options.AddArgument("headless");
+                }
 
-            options.AddArgument("no-sandbox");
-            options.AddArgument("--no-sandbox");
-            options.AddArgument("--start-maximized");
-            
-            options.AddArguments("--remote-debugging-port=9225"); 
-            
-            options.AddUserProfilePreference("download.default_directory", _options.DownloadDirectory);
-            options.AddUserProfilePreference("profile.cookie_controls_mode", 0);
-            options.SetLoggingPreference(LogType.Browser, LogLevel.All);
-            return new ChromeDriver(driverService, options, TimeSpan.FromSeconds(_options.DefaultTimeoutSeconds));
+                options.AddArgument("no-sandbox");
+                options.AddArgument("--no-sandbox");
+                options.AddArgument("--start-maximized");
+
+                options.AddArguments("--remote-debugging-port=9225");
+
+                options.AddUserProfilePreference("download.default_directory", _options.DownloadDirectory);
+                options.AddUserProfilePreference("profile.cookie_controls_mode", 0);
+                options.SetLoggingPreference(LogType.Browser, LogLevel.All);
+                return new ChromeDriver(driverService, options, TimeSpan.FromSeconds(_options.DefaultTimeoutSeconds));
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine(e);
+                throw;
+            }
         }
+
+        private async Task UpdateChromeDriverIfNeeded()
+        {
+            try
+            {
+                Console.WriteLine("Installing ChromeDriver");
+
+                var chromeDriverInstaller = new ChromeDriverInstaller();
+
+                // not necessary, but added for logging purposes
+                var chromeVersion = await chromeDriverInstaller.GetChromeVersion();
+                Console.WriteLine($"Chrome version {chromeVersion} detected");
+
+                await chromeDriverInstaller.Install(chromeVersion);
+                Console.WriteLine("ChromeDriver installed");
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine(e);
+                throw;
+            }
+        } 
 
         public Browsers Name => Browsers.Chrome;
     }

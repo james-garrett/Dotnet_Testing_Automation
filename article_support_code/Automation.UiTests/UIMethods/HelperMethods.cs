@@ -53,6 +53,17 @@ namespace AutomationPractice.UiTests
                 }
             }
         }
+
+        public static IWebElement FindElementOnPage(IWebDriver? driver, string elementName)
+        {
+            IWebElement body = driver.FindElement(By.TagName(elementName));
+            return body;
+        }
+        
+        public static bool CanFindElementOnPage( IWebDriver? driver, string elementName)
+        {
+            return FindElementOnPage(driver, elementName) != null;
+        }
         
         public static void WaitUntilVisible( IWebDriver? driver, string elementName)
         {
